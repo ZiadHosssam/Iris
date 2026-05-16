@@ -1,0 +1,12 @@
+[theme]
+base = "#0c0c0c"
+panel = "#161616"
+hover = "#1e1e1e"
+border = "#242424"
+muted = "#444444"
+sub = "#888888"
+text = "#c8c8c8"
+white = "#ffffff"
+accent = "#5b6ee1"
+acc_dim = "#2a3366"
+acc_bright = "#8b9bf0"

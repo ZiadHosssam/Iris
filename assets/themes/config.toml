@@ -1,6 +1,0 @@
-[window]
-theme_profile = "default"
-border_style = "rounded"
-font_style = "bold"
-progress_bar_char = "█"
-cursor_symbol = "→ "

@@ -1,0 +1,21 @@
+[window]
+theme_profile = "default"
+border_style = "rounded"
+font_style = "bold"
+progress_bar_char = "█"
+progress_bar_empty_char = "░"
+cursor_symbol = "→ "
+
+show_lyrics_by_default = true
+lyrics_scroll_offset = 3
+show_queue_by_default = false
+time_format = "elapsed" # options: "elapsed", "remaining", "total"
+sidebar_alignment = "left" # options: "left", "right"
+scrollbar_symbol = "│"
+
+
+[player]
+default_music_dir = "~/Music"
+default_volume = 80
+volume_steps = 5
+seek_steps_seconds = 10
