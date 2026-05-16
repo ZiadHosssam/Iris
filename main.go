@@ -22,4 +22,15 @@ func main() {
 	fmt.Printf("Base Color: %s\n", cfg.Colors.Base)
 	fmt.Printf("Panel Color: %s\n", cfg.Colors.Panel)
 
+	songs, err := utils.ScanAudioFiles(cfg.Player.DefaultMusicDir)
+	if err != nil {
+		fmt.Println("Error scanning audio files:", err)
+		return
+	}
+
+	fmt.Printf("Audio Files Found: %d\n", len(songs))
+
+	for i, song := range songs {
+		fmt.Printf(" [%d] %s\n", i+1, song)
+	}
 }
